@@ -1,2 +1,25 @@
-{ extends "base.html" }
+{% extends "base.html" %}
 
+{% block title %} Home {% endblock %} 
+
+{% block body_class %} home {% endblock %}
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+{% load static %} 
+
+<header class="bg-dark">
+    <div class="image-header page-header min-vh-75 bg-gradient-dark" style="height: 500px; background-image: 
+    url('https://www.benfrancia.com/wp-content/uploads/2013/04/male-athlete-running-on-a-road-away-from-camera-fu-PFECQK7.jpg')">
+      <div class="container">
+        <div class="row justify-content-center">
+                          
+        </div>
+    </div>
+</header>
+
+
+  {%endblock%}  
